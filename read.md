@@ -29,6 +29,7 @@ frame work
 | Email system will be upgraded | **Change Management**           |
 | Network is slow               | **Problem Management**          |
 | SLA breaches                  | **Service Level Management**    |
+
 Incident Management and change management are universal tech companies lean  mostly towards agile, cloud nativ and devops driven environments
 the above itsm processes are mostly used in industries like retail, banking, telecom, enterprise , it support
 
@@ -57,21 +58,19 @@ Here’s a more complete breakdown of key ITSM processes grouped by category:
 🧩 Core ITSM Processes Beyond the Basics
 
 ### ✅ Service Management Practices
-| **Process**                      | **Purpose**                                                             | **Example**                                                                
-| -------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| **Service Catalog Management**   | Ensures accurate, up-to-date service offerings are available to users.  | An internal Myntra portal lists "Request VPN Access", "New Laptop", or 
-                                                                                                               "Request Software License".   |
-| **Availability Management**      | Ensures services are available as agreed (99.9% uptime, etc.).          | Netflix ensures its video streaming service maintains 99.99% uptime using 
-                                                                                                               SLAs and SRE teams.        |
-| **Capacity & Performance Mgmt**  | Ensures infrastructure can meet demand without degradation.             | Amazon auto-scales servers during Prime Day to handle traffic spikes and 
-                                                                                                                avoid slowdowns.            |
-| **IT Asset Management**          | Tracks IT assets throughout their lifecycle.                            | Google uses an internal system to track employee laptops, licenses, and                                                                                                                   phones from issue to return. |
-| **Service Configuration Mgmt**   | Maintains info about infrastructure, apps, relationships (CMDB).        | Airbnb tracks which microservices run on which servers via a central                                                                                                                      Configuration Management DB.    |
-| **Release Management**           | Plans and controls service releases and deployments.                    | Myntra plans major feature releases like personalized product pages ahead                                                                                                                 of Diwali sales.           |
-| **Deployment Management**        | Actually deploys code/releases into environments.                       | Netflix pushes new code via Spinnaker using blue-green deployment to avoid                                                                                                                service disruption.       |
-| **Service Continuity Mgmt**      | Ensures IT services can recover from major incidents (DR/BCP planning). | Google ensures Gmail can fail over to a secondary data center within                                                                                                                      seconds if the primary fails.   |
-| **Monitoring & Event Mgmt**      | Detects performance issues and alerts the team in real-time.            | Amazon CloudWatch sends alerts to Opsgenie when CPU usage exceeds a                                                                                                                       threshold in AWS EC2 instances.  |
-| **Service Validation & Testing** | Validates services before going live.                                   | Netflix runs automated integration tests for recommendation engine updates                                                                                                                before deployment.        |
+| **Process**                      | **Purpose**                                                             | **Example**                                                                                          |
+| -------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------|
+| **Service Catalog Management**   | Ensures accurate, up-to-date service offerings are available to users.  | An internal Myntra portal lists "Request VPN Access", "New Laptop", or "Request Software License".   |
+| **Availability Management**      | Ensures services are available as agreed (99.9% uptime, etc.).          | Netflix ensures its video streaming service maintains 99.99% uptime using SLAs and SRE teams.        |
+| **Capacity & Performance Mgmt**  | Ensures infrastructure can meet demand without degradation.             | Amazon auto-scales servers during Prime Day to handle traffic spikes and avoid slowdowns.            |
+| **IT Asset Management**          | Tracks IT assets throughout their lifecycle.                            | Google uses an internal system to track employee laptops, licenses, and phones from issue to return. |
+| **Service Configuration Mgmt**   | Maintains info about infrastructure, apps, relationships (CMDB).        | Airbnb tracks which microservices run on which servers via a central Configuration Management DB.    |
+| **Release Management**           | Plans and controls service releases and deployments.                    | Myntra plans major feature releases like personalized product pages ahead of Diwali sales.           |
+| **Deployment Management**        | Actually deploys code/releases into environments.                       | Netflix pushes new code via Spinnaker using blue-green deployment to avoid service disruption.       |
+| **Service Continuity Mgmt**      | Ensures IT services can recover from major incidents (DR/BCP planning). | Google ensures Gmail can fail over to a secondary data center within seconds if the primary fails.   |
+| **Monitoring & Event Mgmt**      | Detects performance issues and alerts the team in real-time.            | Amazon CloudWatch sends alerts to Opsgenie when CPU usage exceeds a threshold in AWS EC2 instances.  |
+| **Service Validation & Testing** | Validates services before going live.                                   | Netflix runs automated integration tests for recommendation engine updates before deployment.        |
+
 
 
 ### 🔧 Technical Management Practices
