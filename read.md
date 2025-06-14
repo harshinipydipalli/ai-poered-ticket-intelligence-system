@@ -7,8 +7,8 @@ ITSM is the process-based approach to designing, delivering, managing, and impro
 Realistic IT Ticket Dataset (25 Sample Rows)
 These columns are exactly what real ITSM platforms like `ServiceNow, Jira, or Zendesk` use for internal service tracking:
 
-| Column Name       | Description                                   |
-| ----------------- | --------------------------------------------- |
+| Column Name       | Description                                 |
+| ----------------- | ------------------------------------------- |
 | ticket_id       | Unique ticket code                            |
 | created_at      | Time ticket was opened                        |
 | description     | Text about the issue                          |
